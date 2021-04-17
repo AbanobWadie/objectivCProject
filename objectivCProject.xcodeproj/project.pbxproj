@@ -3,10 +3,13 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		69F4EB229C2A3DF71510373A /* Pods_objectivCProject.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B6F2A62A64EC3BDDDB0380E9 /* Pods_objectivCProject.framework */; };
+		D3BBA4F5261C1473009BC36E /* InprogressViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D3BBA4F4261C1473009BC36E /* InprogressViewController.m */; };
+		D3BBA4F8261C1485009BC36E /* DoneViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D3BBA4F7261C1485009BC36E /* DoneViewController.m */; };
 		D3C88FA3261B864F00BC6075 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D3C88FA2261B864F00BC6075 /* AppDelegate.m */; };
 		D3C88FA6261B864F00BC6075 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D3C88FA5261B864F00BC6075 /* SceneDelegate.m */; };
 		D3C88FA9261B864F00BC6075 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D3C88FA8261B864F00BC6075 /* ViewController.m */; };
@@ -14,9 +17,19 @@
 		D3C88FAE261B865D00BC6075 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D3C88FAD261B865D00BC6075 /* Assets.xcassets */; };
 		D3C88FB1261B865D00BC6075 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D3C88FAF261B865D00BC6075 /* LaunchScreen.storyboard */; };
 		D3C88FB4261B865E00BC6075 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D3C88FB3261B865E00BC6075 /* main.m */; };
+		D3C88FBC261BAF9400BC6075 /* TodoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D3C88FBB261BAF9400BC6075 /* TodoViewController.m */; };
+		D3C88FBF261BBC4D00BC6075 /* AddAndUpdateViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D3C88FBE261BBC4D00BC6075 /* AddAndUpdateViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		956E924C6BC2774FC8F33212 /* Pods-objectivCProject.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-objectivCProject.release.xcconfig"; path = "Target Support Files/Pods-objectivCProject/Pods-objectivCProject.release.xcconfig"; sourceTree = "<group>"; };
+		9A8E8A094DB7500225C79C07 /* Pods-objectivCProject.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-objectivCProject.debug.xcconfig"; path = "Target Support Files/Pods-objectivCProject/Pods-objectivCProject.debug.xcconfig"; sourceTree = "<group>"; };
+		B6F2A62A64EC3BDDDB0380E9 /* Pods_objectivCProject.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_objectivCProject.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D3BBA4F3261C1473009BC36E /* InprogressViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = InprogressViewController.h; sourceTree = "<group>"; };
+		D3BBA4F4261C1473009BC36E /* InprogressViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = InprogressViewController.m; sourceTree = "<group>"; };
+		D3BBA4F6261C1485009BC36E /* DoneViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DoneViewController.h; sourceTree = "<group>"; };
+		D3BBA4F7261C1485009BC36E /* DoneViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DoneViewController.m; sourceTree = "<group>"; };
+		D3BBA4F9261C4838009BC36E /* objectivCProject.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = objectivCProject.entitlements; sourceTree = "<group>"; };
 		D3C88F9E261B864E00BC6075 /* objectivCProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = objectivCProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D3C88FA1261B864F00BC6075 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		D3C88FA2261B864F00BC6075 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -29,6 +42,10 @@
 		D3C88FB0261B865D00BC6075 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D3C88FB2261B865E00BC6075 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D3C88FB3261B865E00BC6075 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D3C88FBA261BAF9400BC6075 /* TodoViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TodoViewController.h; sourceTree = "<group>"; };
+		D3C88FBB261BAF9400BC6075 /* TodoViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TodoViewController.m; sourceTree = "<group>"; };
+		D3C88FBD261BBC4D00BC6075 /* AddAndUpdateViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AddAndUpdateViewController.h; sourceTree = "<group>"; };
+		D3C88FBE261BBC4D00BC6075 /* AddAndUpdateViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AddAndUpdateViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -36,17 +53,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				69F4EB229C2A3DF71510373A /* Pods_objectivCProject.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4A5857CE888C33D1E817A731 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9A8E8A094DB7500225C79C07 /* Pods-objectivCProject.debug.xcconfig */,
+				956E924C6BC2774FC8F33212 /* Pods-objectivCProject.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		AB65D555725879A3C479F4DE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B6F2A62A64EC3BDDDB0380E9 /* Pods_objectivCProject.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		D3C88F95261B864E00BC6075 = {
 			isa = PBXGroup;
 			children = (
 				D3C88FA0261B864E00BC6075 /* objectivCProject */,
 				D3C88F9F261B864E00BC6075 /* Products */,
+				4A5857CE888C33D1E817A731 /* Pods */,
+				AB65D555725879A3C479F4DE /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -61,6 +98,7 @@
 		D3C88FA0261B864E00BC6075 /* objectivCProject */ = {
 			isa = PBXGroup;
 			children = (
+				D3BBA4F9261C4838009BC36E /* objectivCProject.entitlements */,
 				D3C88FA1261B864F00BC6075 /* AppDelegate.h */,
 				D3C88FA2261B864F00BC6075 /* AppDelegate.m */,
 				D3C88FA4261B864F00BC6075 /* SceneDelegate.h */,
@@ -72,6 +110,14 @@
 				D3C88FAF261B865D00BC6075 /* LaunchScreen.storyboard */,
 				D3C88FB2261B865E00BC6075 /* Info.plist */,
 				D3C88FB3261B865E00BC6075 /* main.m */,
+				D3C88FBA261BAF9400BC6075 /* TodoViewController.h */,
+				D3C88FBB261BAF9400BC6075 /* TodoViewController.m */,
+				D3C88FBD261BBC4D00BC6075 /* AddAndUpdateViewController.h */,
+				D3C88FBE261BBC4D00BC6075 /* AddAndUpdateViewController.m */,
+				D3BBA4F3261C1473009BC36E /* InprogressViewController.h */,
+				D3BBA4F4261C1473009BC36E /* InprogressViewController.m */,
+				D3BBA4F6261C1485009BC36E /* DoneViewController.h */,
+				D3BBA4F7261C1485009BC36E /* DoneViewController.m */,
 			);
 			path = objectivCProject;
 			sourceTree = "<group>";
@@ -83,9 +129,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D3C88FB7261B865E00BC6075 /* Build configuration list for PBXNativeTarget "objectivCProject" */;
 			buildPhases = (
+				CFAA033B589917FAEEB70299 /* [CP] Check Pods Manifest.lock */,
 				D3C88F9A261B864E00BC6075 /* Sources */,
 				D3C88F9B261B864E00BC6075 /* Frameworks */,
 				D3C88F9C261B864E00BC6075 /* Resources */,
+				32FE12DA43C7B8CDDD786C8F /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -141,14 +189,60 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		32FE12DA43C7B8CDDD786C8F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-objectivCProject/Pods-objectivCProject-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-objectivCProject/Pods-objectivCProject-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-objectivCProject/Pods-objectivCProject-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CFAA033B589917FAEEB70299 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-objectivCProject-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		D3C88F9A261B864E00BC6075 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				D3C88FA9261B864F00BC6075 /* ViewController.m in Sources */,
+				D3C88FBF261BBC4D00BC6075 /* AddAndUpdateViewController.m in Sources */,
 				D3C88FA3261B864F00BC6075 /* AppDelegate.m in Sources */,
 				D3C88FB4261B865E00BC6075 /* main.m in Sources */,
+				D3BBA4F8261C1485009BC36E /* DoneViewController.m in Sources */,
+				D3C88FBC261BAF9400BC6075 /* TodoViewController.m in Sources */,
+				D3BBA4F5261C1473009BC36E /* InprogressViewController.m in Sources */,
 				D3C88FA6261B864F00BC6075 /* SceneDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -287,8 +381,10 @@
 		};
 		D3C88FB8261B865E00BC6075 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9A8E8A094DB7500225C79C07 /* Pods-objectivCProject.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = objectivCProject/objectivCProject.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = W7DFJB5NCS;
 				INFOPLIST_FILE = objectivCProject/Info.plist;
@@ -304,8 +400,10 @@
 		};
 		D3C88FB9261B865E00BC6075 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 956E924C6BC2774FC8F33212 /* Pods-objectivCProject.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = objectivCProject/objectivCProject.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = W7DFJB5NCS;
 				INFOPLIST_FILE = objectivCProject/Info.plist;
